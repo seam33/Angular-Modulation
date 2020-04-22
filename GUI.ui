@@ -9,39 +9,39 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1815</width>
-    <height>910</height>
+    <width>1375</width>
+    <height>960</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>1815</width>
-    <height>910</height>
+    <width>1375</width>
+    <height>960</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>1815</width>
-    <height>910</height>
+    <width>1380</width>
+    <height>960</height>
    </size>
   </property>
   <property name="baseSize">
    <size>
-    <width>1815</width>
-    <height>910</height>
+    <width>1375</width>
+    <height>980</height>
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Angular Modulation</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
+      <y>20</y>
       <width>451</width>
-      <height>311</height>
+      <height>411</height>
      </rect>
     </property>
     <property name="font">
@@ -50,13 +50,13 @@
      </font>
     </property>
     <property name="title">
-     <string>Singals</string>
+     <string>Signals</string>
     </property>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="generate">
      <property name="geometry">
       <rect>
-       <x>280</x>
-       <y>240</y>
+       <x>140</x>
+       <y>340</y>
        <width>141</width>
        <height>51</height>
       </rect>
@@ -65,12 +65,12 @@
       <string>Generate</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_5">
+    <widget class="QLineEdit" name="resistance">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>140</x>
        <y>180</y>
-       <width>211</width>
+       <width>241</width>
        <height>41</height>
       </rect>
      </property>
@@ -80,7 +80,7 @@
       <rect>
        <x>300</x>
        <y>40</y>
-       <width>121</width>
+       <width>141</width>
        <height>31</height>
       </rect>
      </property>
@@ -98,7 +98,7 @@
       <rect>
        <x>180</x>
        <y>40</y>
-       <width>91</width>
+       <width>101</width>
        <height>31</height>
       </rect>
      </property>
@@ -116,7 +116,7 @@
       <rect>
        <x>50</x>
        <y>130</y>
-       <width>71</width>
+       <width>81</width>
        <height>31</height>
       </rect>
      </property>
@@ -133,7 +133,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>190</y>
+       <y>180</y>
        <width>111</width>
        <height>31</height>
       </rect>
@@ -147,41 +147,41 @@
       <string>Resistance:</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_4">
+    <widget class="QLineEdit" name="frecuencym">
      <property name="geometry">
       <rect>
-       <x>280</x>
-       <y>70</y>
+       <x>290</x>
+       <y>80</y>
        <width>141</width>
        <height>41</height>
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_6">
+    <widget class="QLineEdit" name="voltagem">
      <property name="geometry">
       <rect>
-       <x>130</x>
-       <y>70</y>
+       <x>140</x>
+       <y>80</y>
        <width>141</width>
        <height>41</height>
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_7">
+    <widget class="QLineEdit" name="frecuencyc">
      <property name="geometry">
       <rect>
-       <x>280</x>
-       <y>120</y>
+       <x>290</x>
+       <y>130</y>
        <width>141</width>
        <height>41</height>
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_8">
+    <widget class="QLineEdit" name="voltagec">
      <property name="geometry">
       <rect>
-       <x>130</x>
-       <y>120</y>
+       <x>140</x>
+       <y>130</y>
        <width>141</width>
        <height>41</height>
       </rect>
@@ -192,7 +192,7 @@
       <rect>
        <x>10</x>
        <y>80</y>
-       <width>111</width>
+       <width>121</width>
        <height>31</height>
       </rect>
      </property>
@@ -205,17 +205,112 @@
       <string>Modulating:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_6">
+    <widget class="QLabel" name="labelresistance">
      <property name="geometry">
       <rect>
-       <x>350</x>
+       <x>390</x>
        <y>180</y>
-       <width>71</width>
+       <width>41</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;[Ohms]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>240</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>K1:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="k1">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>230</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>290</y>
+       <width>21</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>K:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="k">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>280</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>280</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;[rad/V]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>230</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;[Hz/V]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="clear">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>340</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Clear</string>
      </property>
     </widget>
    </widget>
@@ -223,9 +318,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>340</y>
+      <y>460</y>
       <width>451</width>
-      <height>551</height>
+      <height>491</height>
      </rect>
     </property>
     <property name="font">
@@ -234,84 +329,38 @@
      </font>
     </property>
     <property name="title">
-     <string>Information</string>
+     <string>General Information</string>
     </property>
-    <widget class="QFrame" name="frame">
+    <widget class="QTableWidget" name="table">
      <property name="geometry">
       <rect>
        <x>20</x>
        <y>50</y>
        <width>411</width>
-       <height>61</height>
+       <height>421</height>
       </rect>
      </property>
-     <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
-     </property>
-     <widget class="QCheckBox" name="checkBox">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>20</y>
-        <width>101</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>General</string>
-      </property>
-     </widget>
-     <widget class="QCheckBox" name="checkBox_2">
-      <property name="geometry">
-       <rect>
-        <x>260</x>
-        <y>20</y>
-        <width>81</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Bessel</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QFrame" name="frame_2">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>130</y>
+     <property name="maximumSize">
+      <size>
        <width>411</width>
-       <height>401</height>
-      </rect>
+       <height>421</height>
+      </size>
      </property>
-     <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
+     <property name="rowCount">
+      <number>0</number>
      </property>
-     <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
+     <property name="columnCount">
+      <number>0</number>
      </property>
-     <widget class="QTableWidget" name="tableWidget">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>411</width>
-        <height>401</height>
-       </rect>
-      </property>
-     </widget>
     </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_3">
     <property name="geometry">
      <rect>
       <x>480</x>
-      <y>10</y>
-      <width>1321</width>
-      <height>881</height>
+      <y>20</y>
+      <width>891</width>
+      <height>931</height>
      </rect>
     </property>
     <property name="font">
@@ -322,89 +371,149 @@
     <property name="title">
      <string>Graphics</string>
     </property>
-    <widget class="QGraphicsView" name="graphicsView_2">
+    <widget class="QGroupBox" name="groupBox_4">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>320</y>
-       <width>421</width>
-       <height>261</height>
+       <y>720</y>
+       <width>871</width>
+       <height>191</height>
       </rect>
      </property>
-    </widget>
-    <widget class="QGraphicsView" name="graphicsView_3">
-     <property name="geometry">
-      <rect>
-       <x>450</x>
-       <y>600</y>
-       <width>421</width>
-       <height>261</height>
-      </rect>
+     <property name="title">
+      <string>Bessel Information</string>
      </property>
+     <widget class="QTableWidget" name="tableb">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>851</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>851</width>
+        <height>141</height>
+       </size>
+      </property>
+     </widget>
     </widget>
-    <widget class="QGraphicsView" name="graphicsView_4">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>40</y>
-       <width>421</width>
-       <height>261</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QGraphicsView" name="graphicsView_5">
-     <property name="geometry">
-      <rect>
-       <x>450</x>
-       <y>40</y>
-       <width>421</width>
-       <height>261</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QGraphicsView" name="graphicsView_6">
-     <property name="geometry">
-      <rect>
-       <x>450</x>
-       <y>320</y>
-       <width>421</width>
-       <height>261</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QGraphicsView" name="graphicsView_7">
+    <widget class="QTabWidget" name="tabWidget">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>600</y>
-       <width>421</width>
-       <height>261</height>
+       <y>39</y>
+       <width>871</width>
+       <height>671</height>
       </rect>
      </property>
-    </widget>
-    <widget class="QGraphicsView" name="graphicsView_8">
-     <property name="geometry">
-      <rect>
-       <x>890</x>
-       <y>180</y>
-       <width>421</width>
-       <height>261</height>
-      </rect>
+     <property name="currentIndex">
+      <number>0</number>
      </property>
-    </widget>
-    <widget class="QGraphicsView" name="graphicsView_9">
-     <property name="geometry">
-      <rect>
-       <x>890</x>
-       <y>460</y>
-       <width>421</width>
-       <height>261</height>
-      </rect>
-     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>FM</string>
+      </attribute>
+      <widget class="MplWidget" name="modulating" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>421</width>
+         <height>301</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="MplWidget" name="carrier" native="true">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>10</y>
+         <width>421</width>
+         <height>301</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="MplWidget" name="modulated" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>320</y>
+         <width>421</width>
+         <height>301</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="MplWidget" name="frecuency" native="true">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>320</y>
+         <width>421</width>
+         <height>301</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>PM</string>
+      </attribute>
+      <widget class="MplWidget" name="modulatedp" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>320</y>
+         <width>421</width>
+         <height>301</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="MplWidget" name="frecuencyp" native="true">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>320</y>
+         <width>421</width>
+         <height>301</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="MplWidget" name="modulatingp" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>421</width>
+         <height>301</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="MplWidget" name="carrierp" native="true">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>10</y>
+         <width>421</width>
+         <height>301</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
     </widget>
    </widget>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MplWidget</class>
+   <extends>QWidget</extends>
+   <header>mplwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
